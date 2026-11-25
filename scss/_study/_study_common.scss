@@ -7,3 +7,10 @@
 .gnb li:nth-child(5):after{content: " "; display: block; width: 100%;
 	height: 4px; background-color: $blue; margin-top: -3px;}
 #contentBox{width: 100%; height: 100%;}
+
+.linkcard{display: block; width: 450px; margin: 60px auto; padding: 30px; box-sizing: border-box;
+  border: $border; border-radius: 10px; transition: box-shadow 300ms ease;
+  &:hover{box-shadow: 0 0 10px #ddd;}
+  strong{display: block; font-size: 1.2rem; line-height: 1.5;}
+  p{margin-top: 10px; color: #666; line-height: 1.5;}
+  span{display: block; margin-top: 20px; font-weight: bold; color: $blue;}}
